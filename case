@@ -1,0 +1,16 @@
+#!/bin/bash
+
+temo=10
+
+case $temo in
+0) "Temp w normie. 0 stopni"
+;;
+
+[1-9])
+echo "miesci sie w przedziale"
+;;
+
+*)
+echo " ?????? "
+
+esac
