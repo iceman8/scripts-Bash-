@@ -1,0 +1,26 @@
+#!/bin/bash
+
+echo "Parametry są przekazywane wraz z uruchomieniem skryptu podane po jego nazwie "
+echo "Każdy z parametrów posiada swój numer"
+
+
+echo '$*' "wszystkie parametry począwszy od parametru "
+echo '$0' "nazwa programu"
+echo '$1' "parametr numer 1 "
+echo '$$' "numer procesu"
+
+
+echo "Działanie programu z wywolaniem parametrów"
+echo " nazwa_skryptu : $0"
+echo " liczba parametrów : $#"
+echo "Wszystkie parametry : $*"
+echo "Parametr pierwszy : $1"
+echo "Parametr drugi : $2"
+echo " Parametr trzeci : $3"
+echo "numer procesu : $$ "
+
+echo "wywołanie skryptu " './skrypt 123 436 365 '
+ 
+echo " to najprostszy sposób wykorzystana parametrów " 
+~                                                                                                                                             
+~                                                                 
