@@ -1,0 +1,50 @@
+#!/bin/bash
+ZMIENNA=witam # gdy nie ma spacji nie trzeba używać cudzysłowiu
+ZMIENNA2="You really don't remember"
+ZMIENNA1=3 # przypisując liczby nie używamy cudzysłowia
+
+
+echo    "1.Nazwy Zmiennych  piszemy z duzej litery jest to niepisana zasada "
+echo "2.Bash rozróżnia wielkości liter "
+
+
+echo "3. Wewnatrz cudzysłowie nazwy zmiennych które sa poprzedzone znakiem $ są zastepowane przez przypisaną im wartość "
+
+
+
+ZMIENNA4=""
+if [ -n "$ZMIENNA4" ]; then #;sprawdza czy jest pusta
+    echo "Zmienna o nazwie ZMIENNA4 nie jest pusta "
+else
+    echo "Zmienna o nazwie ZMIENNA4 jest pusta"
+fi
+
+ZMIENNA5=50
+echo "Wywolanie zmiennej w jednym cudzysłowie z napisem '${ZMIENNA5} stopni ' "
+echo "${ZMIENNA5} stopni" #
+
+#!/bin/bash
+ZMIENNA=witam # gdy nie ma spacji nie trzeba używać cudzysłowiu
+ZMIENNA2="You really don't remember"
+ZMIENNA1=3 # przypisując liczby nie używamy cudzysłowia
+
+
+echo    "1.Nazwy Zmiennych  piszemy z duzej litery jest to niepisana zasada "
+echo "2.Bash rozróżnia wielkości liter "
+
+
+echo "3. Wewnatrz cudzysłowie nazwy zmiennych które sa poprzedzone znakiem $ są zastepowane przez przypisaną im wartość "
+
+
+
+ZMIENNA4=""
+if [ -n "$ZMIENNA4" ]; then #;sprawdza czy jest pusta
+    echo "Zmienna o nazwie ZMIENNA4 nie jest pusta "
+else
+    echo "Zmienna o nazwie ZMIENNA4 jest pusta"
+fi
+
+ZMIENNA5=50
+echo "Wywolanie zmiennej w jednym cudzysłowie z napisem '${ZMIENNA5} stopni ' "
+echo "${ZMIENNA5} stopni" #
+
